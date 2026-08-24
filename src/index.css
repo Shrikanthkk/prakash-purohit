@@ -1,0 +1,114 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Custom Elegant Golden Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FFFDF9;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #E8A85B;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #E86014;
+  }
+}
+
+/* Luxury Glassmorphism Navbar Styles */
+.luxury-glass-nav {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.52) 0%,
+    rgba(255, 250, 240, 0.42) 50%,
+    rgba(255, 245, 230, 0.48) 100%
+  );
+  backdrop-filter: blur(20px) saturate(190%);
+  -webkit-backdrop-filter: blur(20px) saturate(190%);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  box-shadow: 
+    0 16px 40px -10px rgba(184, 69, 3, 0.12),
+    0 6px 20px -2px rgba(212, 175, 55, 0.16),
+    inset 0 1px 2px 0 rgba(255, 255, 255, 0.9),
+    inset 0 -1px 2px 0 rgba(212, 175, 55, 0.15);
+}
+
+.luxury-glass-nav-scrolled {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.76) 0%,
+    rgba(255, 252, 245, 0.68) 50%,
+    rgba(255, 248, 235, 0.72) 100%
+  );
+  backdrop-filter: blur(26px) saturate(200%);
+  -webkit-backdrop-filter: blur(26px) saturate(200%);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  box-shadow: 
+    0 20px 48px -10px rgba(184, 69, 3, 0.16),
+    0 8px 24px -2px rgba(212, 175, 55, 0.22),
+    inset 0 1px 2px 0 rgba(255, 255, 255, 0.95),
+    inset 0 -1px 2px 0 rgba(212, 175, 55, 0.2);
+}
+
+/* Active Page Glass Pill */
+.glass-pill-active {
+  background: linear-gradient(
+    135deg,
+    rgba(232, 96, 20, 0.14) 0%,
+    rgba(244, 140, 6, 0.16) 50%,
+    rgba(212, 175, 55, 0.18) 100%
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(232, 96, 20, 0.38);
+  box-shadow: 
+    0 0 16px rgba(232, 96, 20, 0.18),
+    inset 0 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+/* Hover Glass Pill */
+.glass-pill-hover {
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.glass-pill-hover:hover {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-color: rgba(212, 175, 55, 0.35);
+  box-shadow: 
+    0 4px 14px rgba(212, 175, 55, 0.18),
+    inset 0 1px 1px rgba(255, 255, 255, 0.75);
+  transform: translateY(-1.5px);
+}
+
+/* Glass Card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  box-shadow: 0 10px 30px -10px rgba(74, 45, 23, 0.06), 0 0 15px 0 rgba(212, 175, 55, 0.08);
+}
+
+/* Initial Navbar entrance keyframe */
+@keyframes navEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(-24px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-nav-entrance {
+  animation: navEntrance 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
