@@ -47,42 +47,57 @@ export const Home: React.FC = () => {
 
         {/* Hero Left Content Container */}
         <div className="relative z-20 max-w-5xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-6 items-center min-h-[50vh] sm:min-h-[55vh]">
-          <div className="lg:col-span-7 xl:col-span-7 text-center lg:text-left space-y-3 sm:space-y-3.5 flex flex-col justify-center">
-            <div className="space-y-0.5">
-              {/* Line 1 */}
-              <span className="block font-serif text-[11px] sm:text-xs md:text-sm font-semibold tracking-widest text-[#4A2D17] uppercase">
-                BEGIN YOUR
-              </span>
+          <div className="lg:col-span-7 xl:col-span-7 text-left space-y-3 sm:space-y-3.5 flex flex-col justify-center items-start">
+            <div className="flex flex-col items-start gap-1.5 w-full">
+              {/* Box 1: BEGIN YOUR */}
+              <div className="w-fit inline-block bg-white/92 backdrop-blur-xs px-3.5 py-1 rounded-lg border border-white/80 shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
+                <span className="block font-serif text-[11px] sm:text-xs md:text-sm font-semibold tracking-widest text-[#4A2D17] uppercase">
+                  BEGIN YOUR
+                </span>
+              </div>
 
-              {/* Line 2 */}
-              <h1 className="font-serif text-xl sm:text-2xl md:text-3xl lg:text-[34px] font-extrabold tracking-tight uppercase leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[#E86014] via-[#F48C06] to-[#D4AF37] drop-shadow-2xs">
-                SACRED JOURNEY
-              </h1>
+              {/* Box 2: SACRED JOURNEY */}
+              <div className="w-fit inline-block bg-white/92 backdrop-blur-xs px-4 py-1.5 rounded-lg border border-white/80 shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
+                <h1 className="font-serif text-xl sm:text-2xl md:text-3xl lg:text-[34px] font-extrabold tracking-tight uppercase leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[#E86014] via-[#F48C06] to-[#D4AF37] drop-shadow-2xs m-0">
+                  SACRED JOURNEY
+                </h1>
+              </div>
 
-              {/* Line 3 */}
-              <span className="block font-serif text-sm sm:text-base md:text-lg font-bold tracking-tight text-[#2B1810] uppercase">
-                WITH PRAKASH PUROHIT
-              </span>
+              {/* Box 3: WITH PRAKASH PUROHIT */}
+              <div className="w-fit inline-block bg-white/92 backdrop-blur-xs px-3.5 py-1 rounded-lg border border-white/80 shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
+                <span className="block font-serif text-sm sm:text-base md:text-lg font-bold tracking-tight text-[#2B1810] uppercase">
+                  WITH PRAKASH PUROHIT
+                </span>
+              </div>
 
-              {/* Decorative Lotus / Floral Divider */}
-              <div className="py-1.5 flex items-center justify-center lg:justify-start gap-2">
-                <div className="h-[1px] w-12 sm:w-16 bg-gradient-to-r from-transparent via-gold to-gold" />
+              {/* Box 4: Decorative Divider with Flower Icon */}
+              <div className="w-fit inline-flex items-center gap-2 bg-white/92 backdrop-blur-xs px-3.5 py-1 rounded-lg border border-white/80 shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
+                <div className="h-[1px] w-8 sm:w-12 bg-gradient-to-r from-transparent via-gold to-gold" />
                 <div className="flex items-center gap-1 text-saffron text-xs">
                   <span>✦</span>
                   <span className="text-sm">🪷</span>
                   <span>✦</span>
                 </div>
-                <div className="h-[1px] w-12 sm:w-16 bg-gradient-to-l from-transparent via-gold to-gold" />
+                <div className="h-[1px] w-8 sm:w-12 bg-gradient-to-l from-transparent via-gold to-gold" />
               </div>
 
-              {/* Subtitle */}
-              <p className="text-[11px] sm:text-xs text-[#5A3828] font-normal leading-relaxed max-w-md mx-auto lg:mx-0 pt-0.5">
-                Authentic Hindu Puja Services, Vedic Rituals and Spiritual Ceremonies performed with devotion, tradition and care.
-              </p>
+              {/* Box 5: Subtitle Line 1 */}
+              <div className="w-fit inline-block bg-white/92 backdrop-blur-xs px-3.5 py-1 rounded-lg border border-white/80 shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
+                <span className="block text-[11px] sm:text-xs text-[#5A3828] font-normal leading-relaxed">
+                  Authentic Hindu Puja Services, Vedic Rituals and Spiritual Ceremonies
+                </span>
+              </div>
+
+              {/* Box 6: Subtitle Line 2 */}
+              <div className="w-fit inline-block bg-white/92 backdrop-blur-xs px-3.5 py-1 rounded-lg border border-white/80 shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
+                <span className="block text-[11px] sm:text-xs text-[#5A3828] font-normal leading-relaxed">
+                  performed with devotion, tradition and care.
+                </span>
+              </div>
             </div>
 
             {/* Hero Buttons */}
-            <div className="pt-1.5 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-2.5">
+            <div className="pt-1.5 flex flex-col sm:flex-row items-center justify-start gap-2.5">
               <Link
                 to="/contact"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-5 py-2 sm:py-2.5 rounded-full bg-gradient-to-r from-[#E86014] via-[#F97316] to-[#E86014] hover:from-[#FF7A29] hover:to-[#EA580C] text-white text-xs font-semibold tracking-wide shadow-sm hover:shadow-saffron-glow transition-all duration-300 hover:scale-105 active:scale-95 border border-amber-300/40 group"
