@@ -45,6 +45,13 @@ export const Home: React.FC = () => {
         {/* Floating Golden Particles & Light Sparks */}
         <ParticleCanvas />
 
+        {/* Soft Cylindrical / Capsule Decorative Background Elements */}
+        <div className="absolute -top-10 -left-16 w-[420px] sm:w-[540px] h-[110px] sm:h-[130px] rounded-full bg-gradient-to-r from-white/40 via-amber-200/25 to-orange-200/15 shadow-[0_15px_40px_rgba(189,104,20,0.08)] border border-white/50 backdrop-blur-[6px] pointer-events-none -rotate-6 z-0" />
+        
+        <div className="absolute top-[48%] -left-24 w-[360px] sm:w-[460px] h-[90px] sm:h-[110px] rounded-full bg-gradient-to-r from-white/35 via-orange-200/20 to-amber-200/10 shadow-[0_15px_35px_rgba(189,104,20,0.06)] border border-white/40 backdrop-blur-[5px] pointer-events-none rotate-3 z-0" />
+
+        <div className="absolute -bottom-8 right-6 lg:right-[32%] w-[300px] sm:w-[400px] h-[80px] sm:h-[100px] rounded-full bg-gradient-to-r from-orange-200/20 via-gold/15 to-white/30 shadow-[0_12px_30px_rgba(212,175,55,0.07)] border border-white/40 backdrop-blur-[4px] pointer-events-none -rotate-12 z-0" />
+
         {/* Hero Left Content Container */}
         <div className="relative z-20 max-w-5xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-6 items-center min-h-[50vh] sm:min-h-[55vh]">
           <div className="lg:col-span-7 xl:col-span-7 text-left space-y-3 sm:space-y-3.5 flex flex-col justify-center items-start">
@@ -70,8 +77,8 @@ export const Home: React.FC = () => {
                 </span>
               </div>
 
-              {/* Box 4: Decorative Divider with Flower Icon */}
-              <div className="w-fit inline-flex items-center gap-2 bg-[rgba(255,255,255,0.28)] backdrop-blur-[12px] px-3.5 py-1 rounded-[8px] border border-white/45 shadow-[0_4px_18px_rgba(80,45,10,0.08)]">
+              {/* Decorative Divider with Flower Icon (Clean, no background) */}
+              <div className="w-fit flex items-center gap-2 py-1">
                 <div className="h-[1px] w-8 sm:w-12 bg-gradient-to-r from-transparent via-gold to-gold" />
                 <div className="flex items-center gap-1 text-saffron text-xs">
                   <span>✦</span>
@@ -80,7 +87,6 @@ export const Home: React.FC = () => {
                 </div>
                 <div className="h-[1px] w-8 sm:w-12 bg-gradient-to-l from-transparent via-gold to-gold" />
               </div>
-
             </div>
 
             {/* Hero Buttons */}
