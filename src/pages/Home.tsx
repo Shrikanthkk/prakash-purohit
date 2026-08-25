@@ -81,19 +81,6 @@ export const Home: React.FC = () => {
                 <div className="h-[1px] w-8 sm:w-12 bg-gradient-to-l from-transparent via-gold to-gold" />
               </div>
 
-              {/* Box 5: Subtitle Line 1 */}
-              <div className="w-fit inline-block bg-[rgba(255,255,255,0.28)] backdrop-blur-[12px] px-3.5 py-1 rounded-[8px] border border-white/45 shadow-[0_4px_18px_rgba(80,45,10,0.08)]">
-                <span className="block text-[11px] sm:text-xs text-[#5A3828] font-normal leading-relaxed">
-                  Authentic Hindu Puja Services, Vedic Rituals and Spiritual Ceremonies
-                </span>
-              </div>
-
-              {/* Box 6: Subtitle Line 2 */}
-              <div className="w-fit inline-block bg-[rgba(255,255,255,0.28)] backdrop-blur-[12px] px-3.5 py-1 rounded-[8px] border border-white/45 shadow-[0_4px_18px_rgba(80,45,10,0.08)]">
-                <span className="block text-[11px] sm:text-xs text-[#5A3828] font-normal leading-relaxed">
-                  performed with devotion, tradition and care.
-                </span>
-              </div>
             </div>
 
             {/* Hero Buttons */}
