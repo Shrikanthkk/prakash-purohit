@@ -479,7 +479,7 @@ export const servicesData: ServiceItem[] = [
         answer: 'Individuals whose horoscope indicates double Manglik Dosha or significant planetary afflictions in 7th/8th house.'
       }
     ],
-    image: '/services/kumbha-vivah.png',
+    image: '/services/kumbha-vivah.jpg',
     priceNote: 'Starting from ₹ 6,000'
   },
   {
