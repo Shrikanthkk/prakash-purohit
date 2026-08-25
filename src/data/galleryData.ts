@@ -177,5 +177,13 @@ export const galleryData: GalleryItem[] = [
     image: '/services/pratyangira-homa.jpg',
     caption: 'Grand Goddess Pratyangira Devi protective mandala with rows of 64 sacred herbal dravyas and Homa Kund.',
     location: 'Ashram Yagya Mandapam'
+  },
+  {
+    id: 'gal-21',
+    title: 'Vedic Mantra Japa & Altar Seva',
+    category: 'Puja Ceremonies',
+    image: '/services/vedic-japa-anushthana.jpg',
+    caption: 'Devotee performing sacred flower offering and mantra japa before the consecrated deity altar.',
+    location: 'Devotee Griha Altar'
   }
 ];

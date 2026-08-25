@@ -591,7 +591,7 @@ export const servicesData: ServiceItem[] = [
         answer: 'Yes, with your Name, Gotra, and Nakshatra, authentic Pratinidhi Japa is performed with daily sankalpam.'
       }
     ],
-    image: '/services/aarti-darshan-puja.jpg',
+    image: '/services/vedic-japa-anushthana.jpg',
     priceNote: 'Customized on Request'
   },
   {
