@@ -171,7 +171,7 @@ export const servicesData: ServiceItem[] = [
         answer: 'Yes, with proper safety precautions, proper ventilation, and under the expert guidance of Acharya Surya Prakash Purohit.'
       }
     ],
-    image: '/services/vedic-homa-havan.jpg',
+    image: '/services/chandi-homa.jpg',
     priceNote: 'Starting from ₹ 11,000'
   },
   {

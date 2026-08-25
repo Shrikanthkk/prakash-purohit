@@ -161,5 +161,13 @@ export const galleryData: GalleryItem[] = [
     image: '/services/ganapati-homa.jpg',
     caption: 'Acharya Surya Prakash Purohit conducting the sacred Maha Ganapati fire ritual with consecrated modaks and herbal ahutis.',
     location: 'Devotee Yagya Mandapam'
+  },
+  {
+    id: 'gal-19',
+    title: 'Maha Chandi Devi Sri Chakra Mandala',
+    category: 'Homa',
+    image: '/services/chandi-homa.jpg',
+    caption: 'Grand Devi alankaram with Sri Chakra Navaavarana floor mandala illuminated with terracotta Deepams.',
+    location: 'Chandi Yagya Mandapam'
   }
 ];
