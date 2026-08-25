@@ -50,28 +50,28 @@ export const Home: React.FC = () => {
           <div className="lg:col-span-7 xl:col-span-7 text-left space-y-3 sm:space-y-3.5 flex flex-col justify-center items-start">
             <div className="flex flex-col items-start gap-1.5 w-full">
               {/* Box 1: BEGIN YOUR */}
-              <div className="w-fit inline-block bg-white/92 backdrop-blur-xs px-3.5 py-1 rounded-lg border border-white/80 shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
+              <div className="w-fit inline-block bg-[rgba(255,255,255,0.28)] backdrop-blur-[12px] px-3.5 py-1 rounded-[8px] border border-white/45 shadow-[0_4px_18px_rgba(80,45,10,0.08)]">
                 <span className="block font-serif text-[11px] sm:text-xs md:text-sm font-semibold tracking-widest text-[#4A2D17] uppercase">
                   BEGIN YOUR
                 </span>
               </div>
 
               {/* Box 2: SACRED JOURNEY */}
-              <div className="w-fit inline-block bg-white/92 backdrop-blur-xs px-4 py-1.5 rounded-lg border border-white/80 shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
+              <div className="w-fit inline-block bg-[rgba(255,255,255,0.28)] backdrop-blur-[12px] px-4 py-1.5 rounded-[8px] border border-white/45 shadow-[0_4px_18px_rgba(80,45,10,0.08)]">
                 <h1 className="font-serif text-xl sm:text-2xl md:text-3xl lg:text-[34px] font-extrabold tracking-tight uppercase leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[#E86014] via-[#F48C06] to-[#D4AF37] drop-shadow-2xs m-0">
                   SACRED JOURNEY
                 </h1>
               </div>
 
               {/* Box 3: WITH PRAKASH PUROHIT */}
-              <div className="w-fit inline-block bg-white/92 backdrop-blur-xs px-3.5 py-1 rounded-lg border border-white/80 shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
+              <div className="w-fit inline-block bg-[rgba(255,255,255,0.28)] backdrop-blur-[12px] px-3.5 py-1 rounded-[8px] border border-white/45 shadow-[0_4px_18px_rgba(80,45,10,0.08)]">
                 <span className="block font-serif text-sm sm:text-base md:text-lg font-bold tracking-tight text-[#2B1810] uppercase">
                   WITH PRAKASH PUROHIT
                 </span>
               </div>
 
               {/* Box 4: Decorative Divider with Flower Icon */}
-              <div className="w-fit inline-flex items-center gap-2 bg-white/92 backdrop-blur-xs px-3.5 py-1 rounded-lg border border-white/80 shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
+              <div className="w-fit inline-flex items-center gap-2 bg-[rgba(255,255,255,0.28)] backdrop-blur-[12px] px-3.5 py-1 rounded-[8px] border border-white/45 shadow-[0_4px_18px_rgba(80,45,10,0.08)]">
                 <div className="h-[1px] w-8 sm:w-12 bg-gradient-to-r from-transparent via-gold to-gold" />
                 <div className="flex items-center gap-1 text-saffron text-xs">
                   <span>✦</span>
@@ -82,14 +82,14 @@ export const Home: React.FC = () => {
               </div>
 
               {/* Box 5: Subtitle Line 1 */}
-              <div className="w-fit inline-block bg-white/92 backdrop-blur-xs px-3.5 py-1 rounded-lg border border-white/80 shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
+              <div className="w-fit inline-block bg-[rgba(255,255,255,0.28)] backdrop-blur-[12px] px-3.5 py-1 rounded-[8px] border border-white/45 shadow-[0_4px_18px_rgba(80,45,10,0.08)]">
                 <span className="block text-[11px] sm:text-xs text-[#5A3828] font-normal leading-relaxed">
                   Authentic Hindu Puja Services, Vedic Rituals and Spiritual Ceremonies
                 </span>
               </div>
 
               {/* Box 6: Subtitle Line 2 */}
-              <div className="w-fit inline-block bg-white/92 backdrop-blur-xs px-3.5 py-1 rounded-lg border border-white/80 shadow-[0_2px_8px_rgba(0,0,0,0.06)]">
+              <div className="w-fit inline-block bg-[rgba(255,255,255,0.28)] backdrop-blur-[12px] px-3.5 py-1 rounded-[8px] border border-white/45 shadow-[0_4px_18px_rgba(80,45,10,0.08)]">
                 <span className="block text-[11px] sm:text-xs text-[#5A3828] font-normal leading-relaxed">
                   performed with devotion, tradition and care.
                 </span>
