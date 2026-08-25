@@ -143,7 +143,7 @@ export const servicesData: ServiceItem[] = [
         answer: 'Anyone facing continuous unexplainable hurdles, health concerns, or negative domestic ambiance.'
       }
     ],
-    image: '/services/vivah-shanti-homa.jpg',
+    image: '/services/sudarshan-homa.jpg',
     priceNote: 'Starting from ₹ 6,500'
   },
   {

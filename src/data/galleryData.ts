@@ -137,5 +137,13 @@ export const galleryData: GalleryItem[] = [
     image: '/services/arka-vivah.jpg',
     caption: 'Traditional Arka Vivah ceremony with floral garlands, sacred kalash offerings, and Vedic family sankalpam.',
     location: 'Sacred Griha Mandapam'
+  },
+  {
+    id: 'gal-16',
+    title: 'Sudarshan Homa Agni Ahuti',
+    category: 'Homa',
+    image: '/services/sudarshan-homa.jpg',
+    caption: 'Sacred fire offerings with pure cow ghee and herbal samidhas during Sri Sudarshana protective Havan.',
+    location: 'Home Yagya Shala'
   }
 ];
