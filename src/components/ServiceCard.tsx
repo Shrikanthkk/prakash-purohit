@@ -10,17 +10,26 @@ interface ServiceCardProps {
 export const ServiceCard: React.FC<ServiceCardProps> = ({ service }) => {
   return (
     <div className="group relative flex flex-col rounded-2xl bg-white border border-gold/30 hover:border-saffron/60 shadow-divine-card hover:shadow-gold-glow transition-all duration-300 hover:-translate-y-1.5 overflow-hidden">
-      {/* Service Image Frame (Taller with top-aligned faces) */}
-      <Link to={`/services/${service.id}`} className="relative h-56 sm:h-64 w-full overflow-hidden bg-cream-200 block">
+      {/* Service Image Frame (Full photo view: faces at top + sacred homa fire at bottom 100% visible) */}
+      <Link to={`/services/${service.id}`} className="relative h-64 sm:h-72 w-full overflow-hidden bg-[#1D1007] block group">
+        {/* Ambient Blurred Background to fill edges seamlessly */}
+        <img
+          src={service.image}
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 w-full h-full object-cover blur-md scale-110 opacity-45 pointer-events-none"
+        />
+
+        {/* Crisp Full Foreground Image (Shows faces, bodies, and sacred homa fire) */}
         <img
           src={service.image}
           alt={service.title}
-          className={`w-full h-full object-cover ${service.imagePosition || 'object-top'} transform transition-transform duration-700 group-hover:scale-105`}
+          className="relative z-10 w-full h-full object-contain transform transition-transform duration-700 group-hover:scale-105"
           loading="lazy"
         />
 
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-spiritual-dark/70 via-spiritual-dark/20 to-transparent" />
+        {/* Subtle Ambient Glass Gradient */}
+        <div className="absolute inset-0 z-10 pointer-events-none bg-gradient-to-t from-spiritual-dark/80 via-transparent to-black/25" />
 
         {/* Category Pill Tag */}
         <div className="absolute top-3 left-3 z-10">

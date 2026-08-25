@@ -46,13 +46,22 @@ export const ServiceDetails: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           {/* Left: Large Image Frame with Gold Accents */}
           <div className="lg:col-span-6 relative">
-            <div className="relative rounded-3xl overflow-hidden border-2 border-gold/50 shadow-2xl bg-cream-200 aspect-[4/3] group">
+            <div className="relative rounded-3xl overflow-hidden border-2 border-gold/50 shadow-2xl bg-[#1D1007] aspect-[4/3] sm:aspect-[1/1] lg:aspect-[4/3] group">
+              {/* Blurred Ambient Background */}
+              <img
+                src={service.image}
+                alt=""
+                aria-hidden="true"
+                className="absolute inset-0 w-full h-full object-cover blur-md scale-110 opacity-45 pointer-events-none"
+              />
+
+              {/* Crisp Full Foreground Image */}
               <img
                 src={service.image}
                 alt={service.title}
-                className={`w-full h-full object-cover ${service.imagePosition || 'object-top'} transform transition-transform duration-700 group-hover:scale-105`}
+                className="relative z-10 w-full h-full object-contain transform transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-spiritual-dark/80 via-spiritual-dark/20 to-transparent" />
+              <div className="absolute inset-0 z-10 pointer-events-none bg-gradient-to-t from-spiritual-dark/80 via-transparent to-black/25" />
               
               {/* Category Pill Tag */}
               <div className="absolute top-4 left-4">
