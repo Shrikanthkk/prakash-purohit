@@ -227,7 +227,7 @@ export const servicesData: ServiceItem[] = [
         answer: 'Mondays, Pradosham days, Masa Shivaratri, or birthdays for long-life blessings.'
       }
     ],
-    image: '/services/vedic-homa-havan.jpg',
+    image: '/services/rudra-homa.jpg',
     priceNote: 'Starting from ₹ 6,500'
   },
   {

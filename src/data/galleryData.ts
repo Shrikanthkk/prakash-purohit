@@ -145,5 +145,13 @@ export const galleryData: GalleryItem[] = [
     image: '/services/sudarshan-homa.jpg',
     caption: 'Sacred fire offerings with pure cow ghee and herbal samidhas during Sri Sudarshana protective Havan.',
     location: 'Home Yagya Shala'
+  },
+  {
+    id: 'gal-17',
+    title: 'Sri Rudra Homa Sacred Ahuti',
+    category: 'Homa',
+    image: '/services/rudra-homa.jpg',
+    caption: 'Devotee couple offering sacred Dravyas into the burning Homa Kund during Sri Rudra & Maha Mrityunjaya ritual.',
+    location: 'Family Griha Yagya Shala'
   }
 ];
