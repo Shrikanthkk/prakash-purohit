@@ -126,9 +126,9 @@ export const galleryData: GalleryItem[] = [
     id: 'gal-14',
     title: 'Kumbha Vivah Shastric Remedy',
     category: 'Vedic Ceremonies',
-    image: '/services/kumbha-vivah.jpg',
-    caption: 'Sacred Kumbha sthapana with consecrated water pots, coconuts, and traditional family prayers for marital dosha nivarana.',
-    location: 'Ashram Yagya Mandapam'
+    image: '/services/kumbha-vivah.png',
+    caption: 'Acharya Surya Prakash Purohit performing the sacred Kumbha Vivah wedding homa ritual with the couple in prayer before the holy fire.',
+    location: 'Family Mandapam Yagya Shala'
   },
   {
     id: 'gal-15',
