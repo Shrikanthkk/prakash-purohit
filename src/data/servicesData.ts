@@ -263,7 +263,7 @@ export const servicesData: ServiceItem[] = [
         answer: 'Yes, the priest conducts the sankalpam using their Gotra and Nakshatra, and consecrated holy water (Teertha) is provided.'
       }
     ],
-    image: '/services/gruhapravesam-ceremony.jpg',
+    image: '/services/mrityunjaya-homa.jpg',
     imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 6,000'
   },

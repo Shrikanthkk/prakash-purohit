@@ -185,5 +185,13 @@ export const galleryData: GalleryItem[] = [
     image: '/services/vedic-japa-anushthana.jpg',
     caption: 'Devotee performing sacred flower offering and mantra japa before the consecrated deity altar.',
     location: 'Devotee Griha Altar'
+  },
+  {
+    id: 'gal-22',
+    title: 'Maha Mrityunjaya Homa Preparations',
+    category: 'Homa',
+    image: '/services/mrityunjaya-homa.jpg',
+    caption: 'Devotee in traditional yellow silk seated before the consecrated Homa Kund with sacred samidhas and ritual offerings.',
+    location: 'Family Mandapam'
   }
 ];
