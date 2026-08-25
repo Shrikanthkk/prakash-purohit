@@ -115,7 +115,7 @@ export const servicesData: ServiceItem[] = [
         answer: 'In Vedic traditions, Ganapati invocation is the essential foundational first step for all sacred ceremonies.'
       }
     ],
-    image: '/services/vedic-homa-havan.jpg',
+    image: '/services/ganapati-homa.jpg',
     priceNote: 'Starting from ₹ 5,100'
   },
   {

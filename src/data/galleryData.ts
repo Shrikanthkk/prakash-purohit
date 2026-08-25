@@ -153,5 +153,13 @@ export const galleryData: GalleryItem[] = [
     image: '/services/rudra-homa.jpg',
     caption: 'Devotee couple offering sacred Dravyas into the burning Homa Kund during Sri Rudra & Maha Mrityunjaya ritual.',
     location: 'Family Griha Yagya Shala'
+  },
+  {
+    id: 'gal-18',
+    title: 'Maha Ganapati Homa Purnahuti',
+    category: 'Homa',
+    image: '/services/ganapati-homa.jpg',
+    caption: 'Acharya Surya Prakash Purohit conducting the sacred Maha Ganapati fire ritual with consecrated modaks and herbal ahutis.',
+    location: 'Devotee Yagya Mandapam'
   }
 ];
