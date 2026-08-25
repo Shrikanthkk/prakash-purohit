@@ -45,27 +45,6 @@ export const Home: React.FC = () => {
         {/* Floating Golden Particles & Light Sparks */}
         <ParticleCanvas />
 
-        {/* Hanging Brass Oil Lamps (Diyas) */}
-        <div className="absolute top-0 left-6 sm:left-12 z-10 hidden md:flex flex-col items-center pointer-events-none animate-float-slow">
-          <div className="w-[1px] h-24 sm:h-30 bg-gradient-to-b from-amber-600/40 via-gold to-amber-700 shadow-sm" />
-          <div className="relative -mt-1 flex flex-col items-center">
-            <div className="w-6 h-7 rounded-b-full bg-gradient-to-b from-amber-600 via-gold-600 to-amber-800 shadow-xs border border-amber-400" />
-            <div className="w-8 h-2 -mt-1 rounded-full bg-gradient-to-r from-amber-700 via-amber-500 to-amber-700 shadow-2xs" />
-            <div className="absolute -top-2 w-3 h-4 rounded-full bg-gradient-to-t from-orange-500 via-amber-300 to-yellow-100 blur-[0.5px] animate-diya-flicker" />
-            <div className="absolute -top-2.5 w-5 h-5 rounded-full bg-amber-400/30 blur-sm animate-pulse" />
-          </div>
-        </div>
-
-        <div className="absolute top-0 right-6 sm:right-12 z-10 hidden md:flex flex-col items-center pointer-events-none animate-float-slow [animation-delay:2s]">
-          <div className="w-[1px] h-20 sm:h-26 bg-gradient-to-b from-amber-600/40 via-gold to-amber-700 shadow-sm" />
-          <div className="relative -mt-1 flex flex-col items-center">
-            <div className="w-6 h-7 rounded-b-full bg-gradient-to-b from-amber-600 via-gold-600 to-amber-800 shadow-xs border border-amber-400" />
-            <div className="w-8 h-2 -mt-1 rounded-full bg-gradient-to-r from-amber-700 via-amber-500 to-amber-700 shadow-2xs" />
-            <div className="absolute -top-2 w-3 h-4 rounded-full bg-gradient-to-t from-orange-500 via-amber-300 to-yellow-100 blur-[0.5px] animate-diya-flicker" />
-            <div className="absolute -top-2.5 w-5 h-5 rounded-full bg-amber-400/30 blur-sm animate-pulse" />
-          </div>
-        </div>
-
         {/* Hero Left Content Container */}
         <div className="relative z-20 max-w-5xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-6 items-center min-h-[50vh] sm:min-h-[55vh]">
           <div className="lg:col-span-7 xl:col-span-7 text-center lg:text-left space-y-3 sm:space-y-3.5 flex flex-col justify-center">
