@@ -121,5 +121,13 @@ export const galleryData: GalleryItem[] = [
     image: '/services/kadali-vivah.jpg',
     caption: 'Acharya Surya Prakash Purohit performing sacred Vivah Shastric blessing with consecrated teertham and akshata.',
     location: 'Mandapam Yagya Shala'
+  },
+  {
+    id: 'gal-14',
+    title: 'Kumbha Vivah Shastric Remedy',
+    category: 'Vedic Ceremonies',
+    image: '/services/kumbha-vivah.jpg',
+    caption: 'Sacred Kumbha sthapana with consecrated water pots, coconuts, and traditional family prayers for marital dosha nivarana.',
+    location: 'Ashram Yagya Mandapam'
   }
 ];
