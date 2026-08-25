@@ -50,7 +50,7 @@ export const ServiceDetails: React.FC = () => {
               <img
                 src={service.image}
                 alt={service.title}
-                className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105"
+                className={`w-full h-full object-cover ${service.imagePosition || 'object-top'} transform transition-transform duration-700 group-hover:scale-105`}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-spiritual-dark/80 via-spiritual-dark/20 to-transparent" />
               

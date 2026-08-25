@@ -11,6 +11,7 @@ export interface ServiceItem {
   preparationInfo: string[];
   faqs: { question: string; answer: string }[];
   image: string;
+  imagePosition?: string;
   priceNote?: string;
 }
 
@@ -59,6 +60,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/gruhapravesam-ceremony.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 7,500'
   },
   {
@@ -88,6 +90,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/satyanarayan-puja-katha.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 3,500'
   },
   {
@@ -116,6 +119,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/ganapati-homa.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 5,100'
   },
   {
@@ -144,6 +148,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/sudarshan-homa.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 6,500'
   },
   {
@@ -172,6 +177,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/chandi-homa.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 11,000'
   },
   {
@@ -200,6 +206,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/pratyangira-homa.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 8,500'
   },
   {
@@ -228,6 +235,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/rudra-homa.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 6,500'
   },
   {
@@ -256,6 +264,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/gruhapravesam-ceremony.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 6,000'
   },
   {
@@ -284,6 +293,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/navgrah-dosha-puja.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 5,500'
   },
   {
@@ -312,6 +322,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/kuja-dosha-shanti.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 5,100'
   },
   {
@@ -340,6 +351,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/kaalsarp-dosha-mandala.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 6,500'
   },
   {
@@ -368,6 +380,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/namakarana-ceremony.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 4,500'
   },
   {
@@ -396,6 +409,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/annaprasana-puja.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 4,000'
   },
   {
@@ -424,6 +438,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/akshara-abhyasa-ceremony.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 3,500'
   },
   {
@@ -452,6 +467,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/kadali-vivah.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 6,000'
   },
   {
@@ -480,6 +496,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/kumbha-vivah.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 6,000'
   },
   {
@@ -508,6 +525,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/arka-vivah.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 5,500'
   },
   {
@@ -536,6 +554,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/vehicle-puja.jpg',
+    imagePosition: 'object-center',
     priceNote: 'Starting from ₹ 1,500'
   },
   {
@@ -564,6 +583,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/office-puja-mandala.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 5,500'
   },
   {
@@ -592,6 +612,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/vedic-japa-anushthana.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Customized on Request'
   },
   {
@@ -620,6 +641,7 @@ export const servicesData: ServiceItem[] = [
       }
     ],
     image: '/services/jathaka-kundali-guidance.jpg',
+    imagePosition: 'object-top',
     priceNote: 'Starting from ₹ 1,100'
   }
 ];

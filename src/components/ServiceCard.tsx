@@ -10,12 +10,12 @@ interface ServiceCardProps {
 export const ServiceCard: React.FC<ServiceCardProps> = ({ service }) => {
   return (
     <div className="group relative flex flex-col rounded-2xl bg-white border border-gold/30 hover:border-saffron/60 shadow-divine-card hover:shadow-gold-glow transition-all duration-300 hover:-translate-y-1.5 overflow-hidden">
-      {/* Service Image Frame */}
-      <Link to={`/services/${service.id}`} className="relative h-48 w-full overflow-hidden bg-cream-200 block">
+      {/* Service Image Frame (Taller with top-aligned faces) */}
+      <Link to={`/services/${service.id}`} className="relative h-56 sm:h-64 w-full overflow-hidden bg-cream-200 block">
         <img
           src={service.image}
           alt={service.title}
-          className="w-full h-full object-cover object-center transform transition-transform duration-700 group-hover:scale-110"
+          className={`w-full h-full object-cover ${service.imagePosition || 'object-top'} transform transition-transform duration-700 group-hover:scale-105`}
           loading="lazy"
         />
 
