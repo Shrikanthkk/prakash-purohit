@@ -507,7 +507,7 @@ export const servicesData: ServiceItem[] = [
         answer: 'On auspicious Sundays, Amavasya, or specific Nakshatras recommended after horoscope reading.'
       }
     ],
-    image: '/services/namakarana-vivah.jpg',
+    image: '/services/arka-vivah.jpg',
     priceNote: 'Starting from ₹ 5,500'
   },
   {

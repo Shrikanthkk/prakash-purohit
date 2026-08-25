@@ -129,5 +129,13 @@ export const galleryData: GalleryItem[] = [
     image: '/services/kumbha-vivah.jpg',
     caption: 'Sacred Kumbha sthapana with consecrated water pots, coconuts, and traditional family prayers for marital dosha nivarana.',
     location: 'Ashram Yagya Mandapam'
+  },
+  {
+    id: 'gal-15',
+    title: 'Arka Vivah Ceremony & Sacred Garlands',
+    category: 'Vedic Ceremonies',
+    image: '/services/arka-vivah.jpg',
+    caption: 'Traditional Arka Vivah ceremony with floral garlands, sacred kalash offerings, and Vedic family sankalpam.',
+    location: 'Sacred Griha Mandapam'
   }
 ];
