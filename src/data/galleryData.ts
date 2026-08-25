@@ -169,5 +169,13 @@ export const galleryData: GalleryItem[] = [
     image: '/services/chandi-homa.jpg',
     caption: 'Grand Devi alankaram with Sri Chakra Navaavarana floor mandala illuminated with terracotta Deepams.',
     location: 'Chandi Yagya Mandapam'
+  },
+  {
+    id: 'gal-20',
+    title: 'Maha Pratyangira Devi Protective Mandala',
+    category: 'Homa',
+    image: '/services/pratyangira-homa.jpg',
+    caption: 'Grand Goddess Pratyangira Devi protective mandala with rows of 64 sacred herbal dravyas and Homa Kund.',
+    location: 'Ashram Yagya Mandapam'
   }
 ];

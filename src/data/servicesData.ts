@@ -199,7 +199,7 @@ export const servicesData: ServiceItem[] = [
         answer: 'No, when performed with authentic Vedic chanting and precise proportions of cow ghee, the smoke remains sacred and non-irritating.'
       }
     ],
-    image: '/services/vivah-shanti-homa.jpg',
+    image: '/services/pratyangira-homa.jpg',
     priceNote: 'Starting from ₹ 8,500'
   },
   {
