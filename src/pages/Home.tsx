@@ -45,13 +45,6 @@ export const Home: React.FC = () => {
         {/* Floating Golden Particles & Light Sparks */}
         <ParticleCanvas />
 
-        {/* Soft Cylindrical / Capsule Decorative Background Elements in outer ambient corners */}
-        <div className="absolute -top-12 -left-16 w-[420px] sm:w-[540px] h-[105px] sm:h-[125px] rounded-full bg-gradient-to-r from-white/35 via-amber-200/20 to-orange-200/10 shadow-[0_15px_40px_rgba(189,104,20,0.06)] border border-white/40 backdrop-blur-[5px] pointer-events-none -rotate-6 z-0" />
-        
-        <div className="absolute -bottom-10 -left-20 w-[360px] sm:w-[460px] h-[90px] sm:h-[110px] rounded-full bg-gradient-to-r from-white/30 via-orange-200/15 to-amber-200/10 shadow-[0_15px_35px_rgba(189,104,20,0.05)] border border-white/35 backdrop-blur-[4px] pointer-events-none rotate-6 z-0" />
-
-        <div className="absolute -top-8 -right-20 w-[300px] sm:w-[400px] h-[80px] sm:h-[100px] rounded-full bg-gradient-to-r from-orange-200/15 via-gold/10 to-white/25 shadow-[0_12px_30px_rgba(212,175,55,0.05)] border border-white/35 backdrop-blur-[4px] pointer-events-none -rotate-12 z-0" />
-
         {/* Hero Left Content Container */}
         <div className="relative z-20 max-w-5xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-6 items-center min-h-[50vh] sm:min-h-[55vh]">
           <div className="lg:col-span-7 xl:col-span-7 text-left space-y-3 sm:space-y-3.5 flex flex-col justify-center items-start">
