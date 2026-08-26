@@ -2,7 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
-import { WhatsAppButton } from './components/WhatsAppButton';
+import { FloatingContactButtons } from './components/FloatingContactButtons';
+import { ScrollUpButton } from './components/ScrollUpButton';
 import { ScrollToTop } from './components/ScrollToTop';
 import { SEOHead } from './components/SEOHead';
 import { LaunchIntroVideo } from './components/LaunchIntroVideo';
@@ -46,8 +47,9 @@ export const App: React.FC = () => {
         {/* Global Sacred Footer */}
         <Footer />
 
-        {/* Global Floating WhatsApp Seva Widget */}
-        <WhatsAppButton />
+        {/* Floating Action Buttons: Left-side Contact (Call + WhatsApp) & Right-side Scroll to Top */}
+        <FloatingContactButtons />
+        <ScrollUpButton />
       </div>
     </Router>
   );
