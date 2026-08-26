@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight, ArrowRight, Star, Quote } from 'lucide-react';
 import { ParticleCanvas } from '../components/ParticleCanvas';
@@ -9,6 +9,22 @@ import { testimonialsData } from '../data/testimonialsData';
 export const Home: React.FC = () => {
   const featuredServices = servicesData.slice(0, 3);
   const featuredReview = testimonialsData[0];
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+
+  const playlist = ['/om-writing-video.mp4', '/hero-video.mp4'];
+
+  const handleVideoEnded = () => {
+    // When the OM WRITING intro video completes, seamlessly play the Goddess video (and loop)
+    setCurrentVideoIndex((prev) => (prev + 1) % playlist.length);
+  };
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.load();
+      videoRef.current.play().catch(() => {});
+    }
+  }, [currentVideoIndex]);
 
   return (
     <div className="min-h-screen overflow-x-hidden bg-[#FBF5EC]">
@@ -28,15 +44,18 @@ export const Home: React.FC = () => {
             }}
           >
             <video
+              ref={videoRef}
+              key={playlist[currentVideoIndex]}
               autoPlay
-              loop
               muted
               playsInline
-              className="w-full h-full object-cover object-center transform scale-100"
+              onEnded={handleVideoEnded}
+              className="w-full h-full object-cover object-center transform scale-100 transition-opacity duration-700"
               poster="/reference-hero.png"
             >
+              <source src={playlist[currentVideoIndex]} type="video/mp4" />
+              <source src="/om-writing-video.mp4" type="video/mp4" />
               <source src="/hero-video.mp4" type="video/mp4" />
-              <source src="/Woman_sitting_on_pink_lotus_202608241114.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
