@@ -81,7 +81,7 @@ export const StatsCounterSection: React.FC = () => {
   return (
     <section
       ref={sectionRef}
-      className="py-14 sm:py-16 bg-[#781818] relative overflow-hidden"
+      className="py-14 sm:py-16 bg-[#F6B26B] relative overflow-hidden"
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* 4 Stats Cards in 1 Row (Responsive: 1 col on mobile, 2 cols on tablet, 4 cols on desktop) */}
@@ -94,16 +94,16 @@ export const StatsCounterSection: React.FC = () => {
             return (
               <div
                 key={idx}
-                className="rounded-2xl border-2 border-dashed border-white/70 bg-white/[0.04] p-6 sm:p-8 flex flex-col items-center justify-center text-center transition-transform duration-300 hover:scale-[1.02] shadow-sm min-h-[150px] sm:min-h-[170px]"
+                className="rounded-2xl border-2 border-dashed border-white bg-white/20 backdrop-blur-xs p-6 sm:p-8 flex flex-col items-center justify-center text-center transition-transform duration-300 hover:scale-[1.02] shadow-xs min-h-[150px] sm:min-h-[170px]"
               >
                 {/* Large Bold Animated Number */}
-                <div className="font-serif text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight drop-shadow-xs">
+                <div className="font-serif text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight drop-shadow-[0_2px_5px_rgba(120,40,0,0.3)]">
                   {displayedValue}
                   {stat.suffix}
                 </div>
 
                 {/* Description Label */}
-                <div className="mt-2 text-sm sm:text-base lg:text-lg font-medium text-white/95 tracking-wide">
+                <div className="mt-2 text-sm sm:text-base lg:text-lg font-bold text-[#2B1408] tracking-wide">
                   {stat.label}
                 </div>
               </div>
