@@ -53,7 +53,6 @@ export const LaunchIntroVideo: React.FC = () => {
         muted
         onEnded={handleDismiss}
         className="w-full h-full object-cover object-center scale-100"
-        poster="/reference-hero.png"
       >
         <source src="/om-intro.mp4" type="video/mp4" />
         <source src="/OM-WRITTTING-video.mp4" type="video/mp4" />

@@ -33,7 +33,6 @@ export const Home: React.FC = () => {
               muted
               playsInline
               className="w-full h-full object-cover object-center transform scale-100"
-              poster="/reference-hero.png"
             >
               <source src="/hero-video.mp4" type="video/mp4" />
               <source src="/Woman_sitting_on_pink_lotus_202608241114.mp4" type="video/mp4" />
