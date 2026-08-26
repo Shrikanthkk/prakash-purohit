@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ChevronRight, ArrowRight, Star, Quote } from 'lucide-react';
 import { ParticleCanvas } from '../components/ParticleCanvas';
 import { ServiceCard } from '../components/ServiceCard';
+import { StatsCounterSection } from '../components/StatsCounterSection';
 import { servicesData } from '../data/servicesData';
 import { testimonialsData } from '../data/testimonialsData';
 
@@ -199,7 +200,10 @@ export const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* 3. Featured Services Catalogue Preview */}
+      {/* 3. Deep Maroon Statistics Achievement Counter Section */}
+      <StatsCounterSection />
+
+      {/* 4. Featured Services Catalogue Preview */}
       <section className="py-10 bg-[#FAF6EE] border-t border-gold/25">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-2.5 mb-6">
