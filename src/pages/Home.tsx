@@ -200,10 +200,7 @@ export const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* 3. Deep Maroon Statistics Achievement Counter Section */}
-      <StatsCounterSection />
-
-      {/* 4. Featured Services Catalogue Preview */}
+      {/* 3. Featured Services Catalogue Preview */}
       <section className="py-10 bg-[#FAF6EE] border-t border-gold/25">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-2.5 mb-6">
@@ -231,6 +228,9 @@ export const Home: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* 4. Deep Maroon Statistics Achievement Counter Section */}
+      <StatsCounterSection />
 
       {/* 4. Devotee Blessing Quote Banner */}
       <section className="py-10 bg-white">
