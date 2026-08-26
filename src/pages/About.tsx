@@ -8,12 +8,13 @@ import { siteConfig } from '../data/siteConfig';
 export const About: React.FC = () => {
   return (
     <div className="min-h-screen">
-      {/* 1. Page Hero Banner */}
+      {/* 1. Page Hero Banner with Full-Color Goddess Lakshmi Background */}
       <PageHero
         title="About Prakash Purohit"
         subtitle="Tradition, Devotion & Spiritual Service"
         badge="Vedic Purohit Heritage"
         breadcrumbs={[{ label: 'Home', href: '/' }]}
+        bgImage="/backgrounds/about-goddess-lakshmi.jpg"
       />
 
       {/* 2. Main Two-Column About Section */}
