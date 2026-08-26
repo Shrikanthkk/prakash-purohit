@@ -21,17 +21,30 @@ export const Services: React.FC = () => {
   }, [selectedCategory, searchQuery]);
 
   return (
-    <div className="min-h-screen">
-      {/* Page Hero */}
-      <PageHero
-        title="Our Sacred Services"
-        subtitle="Traditional Hindu Puja, Homa, Japa and Vedic Ceremonies"
-        badge="Timeless Vedic Rituals"
-        breadcrumbs={[{ label: 'Home', href: '/' }]}
-      />
+    <div className="min-h-screen relative overflow-hidden bg-[#FAF5ED]">
+      {/* Full Page Sacred Lord Ganesha Background */}
+      <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden flex items-center justify-center">
+        <img
+          src="/backgrounds/ganesha-services-bg.jpg"
+          alt="Lord Ganesha Divine Presence"
+          className="w-full h-full object-cover object-top opacity-20 sm:opacity-25 filter saturate-[1.15]"
+        />
+        {/* Divine Golden Warmth Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#FFFDF9]/85 via-[#FFF8EE]/75 to-[#FFFDF9]/90" />
+      </div>
 
-      {/* Main Services Filter & Grid Section */}
-      <section className="py-16 sm:py-20 bg-cream-50/70 relative">
+      <div className="relative z-10">
+        {/* Page Hero with Transparent Background for Full Ganesha Visibility */}
+        <PageHero
+          title="Our Sacred Services"
+          subtitle="Traditional Hindu Puja, Homa, Japa and Vedic Ceremonies"
+          badge="Timeless Vedic Rituals"
+          breadcrumbs={[{ label: 'Home', href: '/' }]}
+          transparentBg={true}
+        />
+
+        {/* Main Services Filter & Grid Section */}
+        <section className="py-12 sm:py-16 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Search & Category Filter Controls */}
           <div className="space-y-4 mb-12">
@@ -117,5 +130,6 @@ export const Services: React.FC = () => {
         </div>
       </section>
     </div>
-  );
+  </div>
+);
 };

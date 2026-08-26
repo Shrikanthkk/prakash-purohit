@@ -8,6 +8,7 @@ interface PageHeroProps {
   subtitle: string;
   badge?: string;
   breadcrumbs?: { label: string; href?: string }[];
+  transparentBg?: boolean;
 }
 
 export const PageHero: React.FC<PageHeroProps> = ({
@@ -15,9 +16,16 @@ export const PageHero: React.FC<PageHeroProps> = ({
   subtitle,
   badge = 'Sacred Vedic Seva',
   breadcrumbs = [{ label: 'Home', href: '/' }],
+  transparentBg = false,
 }) => {
   return (
-    <div className="relative pt-24 sm:pt-28 pb-6 sm:pb-8 bg-gradient-to-b from-cream-50 via-[#FAF4E7] to-cream-100 border-b border-gold/30 overflow-hidden text-center">
+    <div
+      className={`relative pt-24 sm:pt-28 pb-6 sm:pb-8 border-b border-gold/30 overflow-hidden text-center ${
+        transparentBg
+          ? 'bg-transparent'
+          : 'bg-gradient-to-b from-cream-50 via-[#FAF4E7] to-cream-100'
+      }`}
+    >
       {/* Background Watermark Om */}
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-9xl sm:text-[14rem] font-serif text-gold/10 pointer-events-none select-none">
         ॐ
