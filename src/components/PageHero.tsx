@@ -17,7 +17,7 @@ export const PageHero: React.FC<PageHeroProps> = ({
   breadcrumbs = [{ label: 'Home', href: '/' }],
 }) => {
   return (
-    <div className="relative pt-28 sm:pt-32 pb-12 sm:pb-16 bg-gradient-to-b from-cream-50 via-[#FAF4E7] to-cream-100 border-b border-gold/30 overflow-hidden text-center">
+    <div className="relative pt-24 sm:pt-28 pb-6 sm:pb-8 bg-gradient-to-b from-cream-50 via-[#FAF4E7] to-cream-100 border-b border-gold/30 overflow-hidden text-center">
       {/* Background Watermark Om */}
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-9xl sm:text-[14rem] font-serif text-gold/10 pointer-events-none select-none">
         ॐ
@@ -63,7 +63,7 @@ export const PageHero: React.FC<PageHeroProps> = ({
           {subtitle}
         </p>
 
-        <SacredDivider symbol="om" className="mt-4 mb-0" />
+        <SacredDivider symbol="om" className="!my-2 sm:!my-3" />
       </div>
     </div>
   );
