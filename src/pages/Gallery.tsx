@@ -16,13 +16,13 @@ export const Gallery: React.FC = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Page Hero with Full-Color Lord Shiva Background */}
+      {/* Page Hero with Full-Color Goddess Saraswati Background */}
       <PageHero
         title="Our Gallery"
         subtitle="Moments of Devotion, Tradition & Celebration"
         badge="Vedic Visual Moments"
         breadcrumbs={[{ label: 'Home', href: '/' }]}
-        bgImage="/backgrounds/gallery-lord-shiva.jpg"
+        bgImage="/backgrounds/gallery-goddess-saraswati.jpg"
       />
 
       {/* Gallery Main Container */}
