@@ -34,13 +34,13 @@ export const Services: React.FC = () => {
       </div>
 
       <div className="relative z-10">
-        {/* Page Hero with Transparent Background for Full Ganesha Visibility */}
+        {/* Page Hero with Full-Color Lord Ganesha Background */}
         <PageHero
           title="Our Sacred Services"
           subtitle="Traditional Hindu Puja, Homa, Japa and Vedic Ceremonies"
           badge="Timeless Vedic Rituals"
           breadcrumbs={[{ label: 'Home', href: '/' }]}
-          transparentBg={true}
+          bgImage="/backgrounds/services-lord-ganesha.jpg"
         />
 
         {/* Main Services Filter & Grid Section */}

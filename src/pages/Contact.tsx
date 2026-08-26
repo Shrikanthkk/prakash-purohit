@@ -107,12 +107,13 @@ export const Contact: React.FC = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Page Hero */}
+      {/* Page Hero with Full-Color Lord Hanuman Background */}
       <PageHero
         title="Contact Prakash Purohit"
         subtitle="Let us help you arrange your sacred ceremony."
         badge="Direct Seva Desk"
         breadcrumbs={[{ label: 'Home', href: '/' }]}
+        bgImage="/backgrounds/contact-lord-hanuman.jpg"
       />
 
       {/* Main Contact Section */}

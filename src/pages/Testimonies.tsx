@@ -20,12 +20,13 @@ export const Testimonies: React.FC = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Page Hero */}
+      {/* Page Hero with Full-Color Lord Krishna Background */}
       <PageHero
         title="Blessings From Our Devotees"
         subtitle="Heartfelt experiences and blessings from families who performed Vedic Pujas with Acharya Surya Prakash Purohit"
         badge="Devotee Feedback"
         breadcrumbs={[{ label: 'Home', href: '/' }]}
+        bgImage="/backgrounds/testimonies-lord-krishna.jpg"
       />
 
       {/* Main Content Area */}
