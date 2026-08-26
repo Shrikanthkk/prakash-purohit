@@ -5,6 +5,7 @@ import { Footer } from './components/Footer';
 import { WhatsAppButton } from './components/WhatsAppButton';
 import { ScrollToTop } from './components/ScrollToTop';
 import { SEOHead } from './components/SEOHead';
+import { LaunchIntroVideo } from './components/LaunchIntroVideo';
 
 // Multi-Page Dedicated Route Views
 import { Home } from './pages/Home';
@@ -20,6 +21,7 @@ import { NotFound } from './pages/NotFound';
 export const App: React.FC = () => {
   return (
     <Router>
+      <LaunchIntroVideo />
       <ScrollToTop />
       <SEOHead />
       <div className="min-h-screen flex flex-col bg-[#FFFDF9] text-[#2D1810] selection:bg-saffron-200 selection:text-saffron-900">
