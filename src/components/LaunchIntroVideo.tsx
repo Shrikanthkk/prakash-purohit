@@ -60,7 +60,22 @@ export const LaunchIntroVideo: React.FC = () => {
       </video>
 
       {/* Subtle Cinematic Vignette */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/20 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-black/15 pointer-events-none" />
+
+      {/* Seamless Natural Parchment Blend Patch (Bottom-Right) */}
+      <div className="absolute bottom-1 right-1 sm:bottom-2 sm:right-2 z-20 w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-[#E8DCB9]/95 shadow-[0_0_25px_12px_#E8DCB9] pointer-events-none filter blur-[1px]" />
+
+      {/* Seamless Natural Parchment Blend Patch (Top-Right) */}
+      <div className="absolute top-1 right-1 sm:top-2 sm:right-2 z-20 w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-[#E8DCB9]/95 shadow-[0_0_20px_10px_#E8DCB9] pointer-events-none filter blur-[1px]" />
+
+      {/* Elegant Brand Signature in Bottom-Right Corner */}
+      <div className="absolute bottom-3 right-3 sm:bottom-4 sm:right-5 z-30 pointer-events-none opacity-90 transition-opacity">
+        <img
+          src="/logo.svg"
+          alt="Suryaprakash Purohit"
+          className="h-6 sm:h-7 w-auto object-contain drop-shadow-xs"
+        />
+      </div>
     </div>
   );
 };
